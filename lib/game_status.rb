@@ -33,3 +33,9 @@ end
 def over?(board)
   won?(board) || full?(board) || draw?(board)
 end
+
+def winner(board)
+  if won?(board)
+    return board[combo[0]]
+  end
+end
