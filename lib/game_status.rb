@@ -13,3 +13,11 @@ WIN_COMBINATIONS = [
   [0,4,8],
   [2,4,6]
 ]
+
+def won?(board)
+  WIN_COMBINATIONS.each_char { |combo|
+    win_index_1 = combo[0]
+    win_index_2 = combo[1]
+    win_index_3 = combo[2]
+    
+    }
